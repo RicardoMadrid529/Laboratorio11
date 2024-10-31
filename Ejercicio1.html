@@ -17,19 +17,25 @@
     
     <script>
         let Calificacion = parseInt(prompt("ingrese su calificacion"));
+
+        if(Calificacion>100){
+
+            alert("nota no valida");
+
+        }else if(Calificacion>=90){
+
+                alert("Aprobado con honores");
+
+            }else if (Calificacion<90 && Calificacion>=70) { 
+
+                alert("Aprobado");
+
+            }else{
+
+                alert("Reprobado");
+            }
+
         
-        if(Calificacion>=90){
-
-            alert("Aprobado con honores");
-
-        }else if (Calificacion<90 && Calificacion>=70) { 
-        
-            alert("Aprobado");
-
-        }else{
-
-            alert("Reprobado");
-        }
     </script>
 
 

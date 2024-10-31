@@ -18,7 +18,16 @@
         let numeroAleatorio = Math.floor(Math.random() * 10) + 1;
         let numeroUsuario = parseInt(prompt("ingrese un numero"));
 
-        alert(numeroAleatorio==numeroUsuario? "¡Felicidades, adivinaste el número!" : ("Lo siento, el número era "+ numeroAleatorio));
+        if(numeroUsuario<1 || numeroUsuario>10){
+
+            (alert ("el numero debe ser entre 1 y 10"));
+
+        }else{
+
+            (alert(numeroAleatorio==numeroUsuario? "¡Felicidades, adivinaste el número!" : ("Lo siento, el número era "+ numeroAleatorio)));
+
+        } 
+        
 
     </script>
 
