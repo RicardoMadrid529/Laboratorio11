@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio1</title>
+</head>
+<body>
+    
+    <h1>Hola mundo</h1>
+    <!--. Ejercicio 3: (30 minutos) Evaluación de Descuentos - 
+    Crea un programa que solicite al usuario ingresar el monto total de su compra. 
+    Si el monto es mayor a 100, aplica un descuento del 10%. 
+    Si el monto es menor o igual a 100, no aplica descuento. 
+    Muestra el monto final a pagar después de aplicar el descuento si corresponde.  -->
+    
+    <script>
+        let totalAPagar = parseFloat(prompt("ingrese el total de su nota"));
+        
+        if(totalAPagar>100){
+
+            totalAPagar = totalAPagar - totalAPagar * 0.1;
+        }
+
+        alert("El total a pagar es: "+ totalAPagar);
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio1</title>
+</head>
+<body>
+    
+    <h1>Hola mundo</h1>
+    <!--. Ejercicio 4: (30 minutos) Juego de Adivinanza de Números - 
+    El programa debe generar un número aleatorio entre 1 y 10. - - - 
+    Solicita al usuario que adivine el número. 
+    Si el usuario adivina correctamente, muestra "¡Felicidades, adivinaste el número!". 
+    Si no adivina, muestra , donde X es el número generado.  -->
+    
+    <script>
+        let numeroAleatorio = Math.floor(Math.random() * 10) + 1;
+        let numeroUsuario = parseInt(prompt("ingrese un numero"));
+
+        alert(numeroAleatorio==numeroUsuario? "¡Felicidades, adivinaste el número!" : ("Lo siento, el número era "+ numeroAleatorio));
+
+    </script>
+
+</body>
+</html>

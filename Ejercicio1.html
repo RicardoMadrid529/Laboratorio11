@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio1</title>
+</head>
+<body>
+    
+    <h1>Hola mundo</h1>
+    <!--Ejercicio 1: (30 minutos) Verificación de Calificaciones - 
+    Escribe un programa que solicite al usuario ingresar una calificación numérica entre 0 
+    y 100. 
+    Si la calificación es mayor o igual a 90, muestra el mensaje . 
+    Si la calificación es mayor o igual a 70 pero menor a 90, muestra el mensaje "Aprobado". 
+    Si la calificación es menor a 70, muestra el mensaje "Reprobado". -->
+    
+    <script>
+        let Calificacion = parseInt(prompt("ingrese su calificacion"));
+        
+        if(Calificacion>=90){
+
+            alert("Aprobado con honores");
+
+        }else if (Calificacion<90 && Calificacion>=70) { 
+        
+            alert("Aprobado");
+
+        }else{
+
+            alert("Reprobado");
+        }
+    </script>
+
+
+
+</body>
+</html>
